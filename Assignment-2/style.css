@@ -112,6 +112,7 @@ border: 1px solid rgba(255, 255, 255,0.1);
 .banner-content{
   justify-content: center;
   align-items: center;
+  /* margin-top: 0px; */
 }
 .banner-title{
   /* width: 50%; */
@@ -121,7 +122,7 @@ border: 1px solid rgba(255, 255, 255,0.1);
 }
 
 .banner{
-  max-width:  50%;
+  min-width:  50%;
 }
 
 .btn-gather{
@@ -145,11 +146,16 @@ border: 1px solid rgba(255, 255, 255,0.1);
 }
 
 
+/* .adjust-img{
+  max-width: 50%;
+} */
+
 /* change habit style */
 
 .change-habit-first{
   max-width: 1044px;
   margin: 0 auto;
+  
 }
 
 main{
@@ -160,7 +166,7 @@ main{
 }
 
 .change-continer{
-  min-width:100% ;
+  max-width:100% ;
   text-align: center;
   /* color: #FFFFFF;
   color: rgba(255, 255, 255, 0.5); */
@@ -170,12 +176,17 @@ main{
   font-weight: 800;
   font-size: 3rem;
   color: #FFFFFF;
+  margin-bottom: 14px;
 }
 
 .change-descri, .card-discri{
   color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
   font-size: 1rem;
+}
+
+.card-container{
+  margin-top: 55px;
 }
 
 .change-card{
@@ -185,14 +196,6 @@ main{
  
 }
 
-/* .card-ti-dis{
-   align-items: center;
-  justify-content: center; 
-} */
-/* .card-container{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-} */
 
 .change-inside{  
   border-radius: 100px;
@@ -209,3 +212,35 @@ main{
   margin-left: 50px;
 }
 
+/* Run section styles */
+.run-section{
+  max-width: 1050px;
+  margin: 0 auto;
+  background-color: #222222;
+  border-radius: 20px;
+  padding: 35px 35px 30px 54px;
+  margin-top: 100px;
+}
+
+.run-detail > .run-card-discri{
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 1rem;
+  max-width: 70%;
+  margin-bottom: 32px;
+}
+ 
+ .run-img{
+  width:360px ;
+  height:312px ;
+  border-radius: 18px;
+  object-fit: cover;
+  object-position: 100% 0;
+  
+ } 
+
+/* .run-section > .run-img{
+  width: 365px;
+  height: 312;
+  object-fit: none;
+} */
