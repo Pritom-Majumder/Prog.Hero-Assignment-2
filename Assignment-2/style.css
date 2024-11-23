@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+.miama-writing{
+  font-family: "Miama", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400 ;                                   font-style: normal;
+}
+                
+
+.inter_writing{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+}
+
+.miama-writing{
+  font-weight: 500;
+  font-size: 8rem;
+  /* padding: auto; */
+}
+
+
+/* Nav-bar section */
+
+/* sheared */
+.brand{
+    font-weight: 900;
+    font-size: 2.1rem;
+    color: rgba(230, 83, 60, 1);
+    margin-left: 30px;
+}
+
+.display_flex{
+  display: flex;
+}
+
+.text-size{
+  font-size: 3rem;
+  color: #FFFFFF;
+}
+
+.btn-primary{
+  background-color: #E6533C;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 16px 45px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 42px;
+}
+
+/* nav styles */
+
+.nav-bar{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+  /* font-weight: 400;
+  font-size: 1rem; */
+  padding: 12px;
+  
+}
+
+.nav-link{
+   text-decoration: none;
+   color: #FFFFFF;
+     font-weight: 400;
+  font-size: 1rem;
+  
+}
+
+.link-color{
+  background-color:#E6533C ;
+  border-radius: 46px;
+
+}
+
+.nav-links{
+  
+border: 1px solid rgba(255, 255, 255,0.1);
+  border-radius: 39px;
+  
+}
+
+
+.bg-color{
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%),
+  linear-gradient(0deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); 
+ 
+}
+
+.nav-bar{
+  max-width: 100%;
+  /* margin: 0 auto; */
+  /* margin:60px 0px 190px; */
+ 
+}
+
+/* nav-title */
+
+.banner-content{
+  justify-content: center;
+  align-items: center;
+}
+.banner-title{
+  /* width: 50%; */
+  /* font-weight: black; */
+  color: #FFFFFF;
+  font-size: 6rem;
+}
+
+.banner{
+  max-width:  50%;
+}
+
+.btn-gather{
+  gap: 14px;
+  margin-bottom: 75px;
+}
+
+.banner-description{
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 24px;
+}
+
+.btn-secondary{
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 16px 45px;
+  background-color: transparent;
+  color: #FFFFFF;
+  border:1px solid white ;
+  border-radius: 42px;
+}
+
+
+/* change habit style */
+
+.change-habit-first{
+  max-width: 1044px;
+  margin: 0 auto;
+}
+
+main{
+  background-color: black;
+  /* margin: 0 auto; */
+  /* align-items: center;
+  justify-items: center; */
+}
+
+.change-continer{
+  min-width:100% ;
+  text-align: center;
+  /* color: #FFFFFF;
+  color: rgba(255, 255, 255, 0.5); */
+}
+
+.change-heading{
+  font-weight: 800;
+  font-size: 3rem;
+  color: #FFFFFF;
+}
+
+.change-descri, .card-discri{
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.change-card{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:30px;
+ 
+}
+
+/* .card-ti-dis{
+   align-items: center;
+  justify-content: center; 
+} */
+/* .card-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+} */
+
+.change-inside{  
+  border-radius: 100px;
+}
+
+.card-title{
+  color: white;
+}
+.card-title, .card-discri{
+  text-align: center;
+}
+
+.change-inside {
+  margin-left: 50px;
+}
+
