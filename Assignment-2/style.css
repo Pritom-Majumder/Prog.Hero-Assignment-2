@@ -61,6 +61,7 @@
 .nav-bar{
   justify-content: space-between;
   align-items: center;
+  max-width: 100%;
 }
 
 .nav-item{
@@ -100,23 +101,15 @@ border: 1px solid rgba(255, 255, 255,0.1);
  
 }
 
-.nav-bar{
-  max-width: 100%;
-  /* margin: 0 auto; */
-  /* margin:60px 0px 190px; */
- 
-}
 
 /* nav-title */
 
 .banner-content{
   justify-content: center;
   align-items: center;
-  /* margin-top: 0px; */
 }
 .banner-title{
   /* width: 50%; */
-  /* font-weight: black; */
   color: #FFFFFF;
   font-size: 6rem;
 }
@@ -155,12 +148,13 @@ border: 1px solid rgba(255, 255, 255,0.1);
 .change-habit-first{
   max-width: 1044px;
   margin: 0 auto;
-  
+  /* margin-top: 90px; */
 }
 
 main{
   background-color: black;
-  /* margin: 0 auto; */
+  max-width: 100%;
+  margin: 0 auto;
   /* align-items: center;
   justify-items: center; */
 }
@@ -177,6 +171,7 @@ main{
   font-size: 3rem;
   color: #FFFFFF;
   margin-bottom: 14px;
+  margin: 0px;
 }
 
 .change-descri, .card-discri{
@@ -196,7 +191,6 @@ main{
  
 }
 
-
 .change-inside{  
   border-radius: 100px;
 }
@@ -209,11 +203,11 @@ main{
 }
 
 .change-inside {
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 /* Run section styles */
-.run-section{
+.run-section , .team-container-2{
   max-width: 1050px;
   margin: 0 auto;
   background-color: #222222;
@@ -239,8 +233,50 @@ main{
   
  } 
 
-/* .run-section > .run-img{
-  width: 365px;
-  height: 312;
-  object-fit: none;
-} */
+/* BMI Calculator Styles*/
+.bmi-heading{
+  margin: 0 auto;
+}
+
+
+/* Our Team styles */
+
+.team{
+  margin-top: 70px;
+  /* margin-bottom: 55px; */
+}
+
+.team-container-1{
+  text-align: center;
+}
+
+.team-img-name> img{
+  width: 326px;
+  height: 272px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.team-img-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.team-container-2{
+  margin-top: 55px;
+  padding: 20px 20px 20px 20px;
+}
+
+.team-img-name { 
+  /* position: absolute;
+  text-align: center; */
+  color: #FFFFFF;
+} 
+
+ img>.bottom-left{
+  /* color: #FFFFFF; */
+  position: relative;
+  bottom: 20px;
+  left: 25px;
+}
