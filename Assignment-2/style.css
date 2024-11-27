@@ -8,7 +8,8 @@
 .miama-writing{
   font-family: "Miama", sans-serif;
   font-optical-sizing: auto;
-  font-weight:400 ;                                   font-style: normal;
+  font-weight:400 ;
+  font-style: normal;
 }
                 
 
@@ -62,6 +63,11 @@
   justify-content: space-between;
   align-items: center;
   max-width: 100%;
+  padding-left:280px ;
+  padding-right:160px ;
+  padding-top: 40px;
+  /* margin: 0 auto; */
+  /* margin: 200px; */
 }
 
 .nav-item{
@@ -101,7 +107,9 @@ border: 1px solid rgba(255, 255, 255,0.1);
  
 }
 
-
+body{
+  background-color: black;
+}
 /* nav-title */
 
 .banner-content{
@@ -109,7 +117,6 @@ border: 1px solid rgba(255, 255, 255,0.1);
   align-items: center;
 }
 .banner-title{
-  /* width: 50%; */
   color: #FFFFFF;
   font-size: 6rem;
 }
@@ -138,23 +145,47 @@ border: 1px solid rgba(255, 255, 255,0.1);
   border-radius: 42px;
 }
 
+.banner-content> .adjust-img{
+  /* max-width: 50%; */
+  /* bottom: 0px; */
+}
 
-/* .adjust-img{
-  max-width: 50%;
-} */
+.btn-img{
+  margin-left: -350px;
+  margin-bottom: -100px;
+  background-color: #FFFFFF;
+  background-color: transparent;
+  filter: blur(#FFFFFF);
+  border:1px solid red;
+
+}
+
+#experi-badge{
+  padding: 20px 20px 20px 75px;
+  font-size: 1rem;
+  font-weight: 400;
+  /* left: 0px; */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#experi-num{
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
 
 /* change habit style */
 
 .change-habit-first{
   max-width: 1044px;
   margin: 0 auto;
-  /* margin-top: 90px; */
+  margin-top: 90px;
 }
 
 main{
-  background-color: black;
+  /* background-color: black; */
   max-width: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* align-items: center;
   justify-items: center; */
 }
@@ -235,7 +266,8 @@ main{
 
 /* BMI Calculator Styles*/
 .bmi-heading{
-  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
 }
 
 
@@ -266,6 +298,8 @@ main{
 .team-container-2{
   margin-top: 55px;
   padding: 20px 20px 20px 20px;
+  /* margin-bottom:70px ; */
+  /* gap: 70px; */
 }
 
 .team-img-name { 
@@ -278,5 +312,69 @@ main{
   /* color: #FFFFFF; */
   position: relative;
   bottom: 20px;
-  left: 25px;
+  /* left: 25px; */
+}
+
+
+/* Footer styles */
+
+.footer-container{
+  background-color: black;
+  background-color: #222222;
+  max-width: 100% ;
+  /* margin: 0 auto; */
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.footer-colum{
+  /* width: 50%; */
+  /* margin: 0 auto; */
+  padding:60px 190px  170px 190px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 120px;
+  justify-content: center;
+}
+
+.brand{
+  font-weight: 900;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.fitness-2, .fitness-3{
+  /* gap: 102px; */
+  color: #FFFFFF;
+  /* list-style: none; */
+  
+}
+
+.foot-li{
+  list-style: none;
+  font-size:18px ;
+  padding-bottom: 20px;
+  /* margin: 0px; */
+}
+
+.hori{
+  width: 70%;
+  margin-bottom: 100px;
+  /* margin-bottom: 80px; */
+  /* margin: 0 auto; */
+}
+
+ .change-descri> ul{
+  /* text-align:center; */
+  padding: 0px;
+}
+
+footer> .change-descri{
+  margin: 0;
+  padding-bottom: 100px;
+
+}
+.foot-cen{
+  text-align: center;
+  /* margin-bottom: 80px; */
 }
