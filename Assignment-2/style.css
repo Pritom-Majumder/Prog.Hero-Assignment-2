@@ -371,6 +371,66 @@ main input[type="button"]{
   width: 76%;
 }
 
+
+
+/* Categories styles */
+.categories-heading{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.categories-img-conta{
+  background-color:gray;
+  margin: 0 auto;
+  max-width:1050px ;
+  border-radius: 20px;
+}
+
+.categories-img{
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  padding: 70px;
+  gap: 20px;
+  /* border-radius: 8px; */
+}
+
+.categories-each-img {
+  border-radius: 15px;
+}
+
+.categories-img> .bottom-left {
+  position: relative;
+  bottom: 30px;
+  /* text-decoration: none; */
+}
+
+.shoulder-workout{
+  text-decoration: none;
+}
+.workout-for-man{
+  text-decoration: none;
+}
+.workout-for-woman{
+  text-decoration: none;
+}
+.muscle-builder{
+  text-decoration: none;
+}
+.fat-loss{
+  text-decoration: none;
+}
+.increase-strength{
+  text-decoration: none;
+}
+.ab-workouts{
+  text-decoration: none;
+}
+.bicep-workout {
+  text-decoration: none;
+}
+
+
 /* Our Team styles */
 
 .team{
