@@ -538,3 +538,95 @@ footer> .change-descri{
   text-align: center;
   /* margin-bottom: 80px; */
 }
+
+
+
+/* responsive media query */
+.toggle-btn{
+color: #FFFFFF;
+font-size: 1.5rem;
+cursor: pointer;
+display: none;
+}
+
+@media screen and (max-width:576px) {
+  .nav-bar{
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 0px; 
+  }
+  .nav-links{
+    /* justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 0px; */
+    /* flex-direction: ; */
+    display: none;
+  }
+  .toggle-btn{
+    display: block;
+    padding-right: 10px;
+  }
+
+  .banner,.run-section,.footer-colum {
+    display: grid;
+    grid-template-columns: auto;
+    /* padding-left: 10px; */
+    /* flex-direction: column; */
+    /* gap: 0; */
+  }
+  .banner{
+    /* padding-left: 20px; */
+  }
+  .banner-title{
+    margin-bottom: 0px;
+  }
+  .adjust-img{
+    justify-content: center;
+    /* display: grid; */
+    /* grid-template-columns:auto ; */
+  }
+
+  .change-habit-first{
+    margin: 0px;
+  }
+
+  .change-card,.change-inside,.team-img-container {
+    align-items: center;
+    /* display: grid; */
+    grid-template-columns:repeat(1, 1fr) ;
+    /* word-wrap: break-word; */
+  }
+  .card-ti-dis {
+    justify-items: center;
+    /* word-wrap: break-word; */
+  }
+  .run-section{
+    gap: 30px;
+  }
+  .categories-img{
+    padding:15px 15px 50px 10px;
+    grid-template-columns:repeat(2, 1fr) ;
+  }
+  .team-img-container{
+    padding:30px;
+    /* padding-right: 45px; */
+  }
+  .footer-colum,.bmi-container{
+    /* padding-right:50% ; */
+    padding: 30px ;
+  }
+  .fitness-2{
+    /* padding-top: 20px; */
+     /* padding-top: 10px; */
+  }
+  .hori{
+    margin-bottom: 40px;
+  }
+  .bmi-container{
+    gap: 40px;
+  }
+  .bmi-heading{
+    margin-top: 5px;
+    margin-bottom: 40px;
+  }
+}
